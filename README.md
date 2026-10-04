@@ -1,27 +1,43 @@
-# 🔐 Gerenciador de Senhas Simples
+# 🔐 Gerenciador de Senhas em Python
 
-Um gerenciador de senhas simples feito em Python para armazenar, recuperar e gerenciar credenciais com segurança básica. Ideal para projetos pessoais ou aprendizado.
+Aplicação de linha de comando criada para explorar cadastro, consulta e manutenção de credenciais em um contexto de segurança básica.
 
-## 📋 Funcionalidades
+## Problema
 
-- Adicionar novas credenciais (serviço, usuário e senha)
-- Buscar credenciais por serviço
-- Atualizar senhas existentes
-- Remover entradas
-- Armazenamento local simples (ex: `.txt`, `.json`, SQLite)
-- Interface de linha de comando (CLI)
+Organizar credenciais de forma estruturada e permitir operações de inclusão, consulta, atualização e remoção.
 
-## ⚙️ Tecnologias
+## Escopo atual
 
-- Python 3.x
-- Armazenamento em arquivo (`json`, `txt` ou `sqlite3`)
-- (Opcional) `getpass` para entrada segura de senhas
-- (Opcional) Criptografia básica com `cryptography` ou `hashlib`
+Este é um projeto de estudo. O foco está no fluxo de gerenciamento de dados e não deve ser tratado como cofre de senhas para uso real sem criptografia e controles adicionais.
 
-## 🚀 Como usar
+## Funcionalidades
 
-1. **Clone o repositório:**
+- Adicionar credenciais
+- Buscar por serviço
+- Atualizar registros
+- Remover registros
+- Armazenamento local simples
 
-```bash
-git clone https://github.com/DFM21031983/Gerenciado-de-Senha.git
-cd Gerenciado-de-Senha
+## Tecnologia
+
+**Python**
+
+## O que demonstra
+
+- CRUD básico
+- Estruturação de dados
+- Persistência local
+- Organização de fluxo em CLI
+- Consciência sobre limitações de segurança
+
+## Como explicar em entrevista
+
+> "Quis praticar um CRUD em Python usando um domínio conhecido. O ponto importante foi perceber que armazenar credenciais exige requisitos de segurança adicionais, então o projeto também me ajudou a separar protótipo funcional de solução pronta para produção."
+
+## Próximo passo
+
+Adicionar criptografia adequada, testes e persistência estruturada.
+
+## Autor
+
+**Daniel Fernando Martins**
